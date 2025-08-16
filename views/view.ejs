@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat Details</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h2>Chat Details</h2>
+      <div class="card">
+        <div class="chat-header">
+          <span>From: <%= chat.from %></span>
+          <span>To: <%= chat.to %></span>
+        </div>
+        <div class="chat-body">
+          <p><%= chat.msg %></p>
+        </div>
+        <div class="meta-info">
+          <p>Created at: <%= new Date(chat.created_at).toLocaleString() %></p>
+          <p>Updated at: <%= new Date(chat.updated_at).toLocaleString() %></p>
+        </div>
+        <div class="btn-group">
+          <a href="/chats" class="btn btn-secondary">Back to All Chats</a>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
