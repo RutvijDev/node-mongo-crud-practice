@@ -54,7 +54,7 @@ _5. The 'Delete Chat' page, allowing to delete Chat._
 1.  **Clone the repository:**
 
     ```bash
-    git clone [https://github.com/RutvijDev/node-mongo-crud-practice.git](https://github.com/RutvijDev/node-mongo-crud-practice.git)
+    git clone https://github.com/RutvijDev/node-mongo-crud-practice.git
     ```
 
 2.  **Navigate to the project directory:**
