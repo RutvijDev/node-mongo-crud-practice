@@ -44,7 +44,7 @@ _3. The 'View Chat' page showing a single Chat in detail._
 ![Screenshot of the view Chat page](./assets/view_page.png)
 
 _4. The 'Update Chat' page, allowing to update Chat message._
-![Screenshot of the update Chat page](./assets/update_page.png)
+![Screenshot of the update Chat page](./assets/edit_page.png)
 
 _5. The 'Delete Chat' page, allowing to delete Chat._
 ![Screenshot of the delete Chat page](./assets/delete_page.png)
@@ -91,4 +91,4 @@ _5. The 'Delete Chat' page, allowing to delete Chat._
     ```
 
 3.  **Open your browser:**
-    Navigate to `http://localhost:8080` (or the port you specified in your `.env` file).
+    Navigate to `http://localhost:8080`.
